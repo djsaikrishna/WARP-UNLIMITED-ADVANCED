@@ -126,7 +126,7 @@ elif ENV == False and INTERACTIVE_MODE == True:
   log.info("INTERACTIVE MODE is active!")
 elif ENV == True and INTERACTIVE_MODE == False:
   log.info("Getting Values from System Environment...")
-  WARP_ID = os.environ.get("WARP_ID", "")
+  WARP_ID = os.environ.get("WARP_ID", "f95a9798-f49b-482c-98a0-367ba6c34479")
   SEND_LOG = os.environ.get("SEND_LOG", "")
   CHAT_ID = os.environ.get("CHAT_ID", "")
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
